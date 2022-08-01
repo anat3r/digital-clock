@@ -17,12 +17,15 @@ body {
 }
 .clock {
   color: #CE7DA5;
-  font-size: 22vh;
+  font-size: 15vw;
   font-family: sans-serif;
-  line-height: 20.4vh;
+  line-height: 15vw;
   display: flex;
   position: relative;
   background: #F5E0E5;
-  border-radius: 4vh;
-  padding: 1vh;
+  border-radius: 3vw;
+  padding: 2vw;
+}
+.clock *{
+  display: flexbox;
 }
