@@ -1,4 +1,4 @@
-setInterval(update, 1000);
+setInterval(update, 500);
 
 function update() {
   let clock = document.getElementById('clock');
